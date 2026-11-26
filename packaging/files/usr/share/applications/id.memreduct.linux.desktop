@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=MemReduct
+GenericName=Pembersih Memori
+Comment=Pantau dan bersihkan memori RAM otomatis
+Exec=memreduct
+Icon=memreduct
+Terminal=false
+Categories=System;Monitor;
+Keywords=ram;memory;memori;cache;clean;bersihkan;
+StartupNotify=false

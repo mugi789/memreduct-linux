@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Jaga-jaga: jangan biarkan sudoers rusak merusak sudo
+if [ -x /usr/sbin/visudo ] && [ -f /etc/sudoers.d/memreduct ]; then
+    if ! visudo -cf /etc/sudoers.d/memreduct >/dev/null 2>&1; then
+        echo "memreduct: aturan sudoers tidak valid, dihapus." >&2
+        rm -f /etc/sudoers.d/memreduct
+    fi
+fi
+command -v gtk-update-icon-cache >/dev/null 2>&1 && gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor || true
+command -v update-desktop-database >/dev/null 2>&1 && update-desktop-database -q /usr/share/applications || true
+exit 0

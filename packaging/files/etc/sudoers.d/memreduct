@@ -1,0 +1,3 @@
+# MemReduct: izinkan admin menjalankan helper pembersih memori tanpa password.
+# Helper hanya menerima kata kunci tetap (pagecache, slab, compact, swap).
+%sudo ALL=(root) NOPASSWD: /usr/lib/memreduct/memreduct-clean

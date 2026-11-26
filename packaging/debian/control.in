@@ -1,0 +1,12 @@
+Package: memreduct
+Version: @VERSION@
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-gi, gir1.2-gtk-3.0, gir1.2-ayatanaappindicator3-0.1, python3-cairo, python3-gi-cairo, libnotify-bin, sudo
+Recommends: gnome-shell-extension-appindicator, policykit-1 | pkexec
+Maintainer: MemReduct Linux <noreply@example.com>
+Description: Pembersih memori ringan dengan ikon tray
+ Memantau pemakaian RAM, swap, dan cache. Ikon tray menampilkan persen RAM,
+ pembersihan otomatis saat melewati ambang batas atau berkala, dan notifikasi
+ hasil pembersihan. Terinspirasi Mem Reduct untuk Windows.
