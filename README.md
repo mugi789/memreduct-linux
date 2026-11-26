@@ -4,8 +4,7 @@ Pembersih memori ringan untuk Ubuntu/Debian dengan ikon di system tray, terinspi
 [Mem Reduct](https://github.com/henrypp/memreduct) di Windows. Memantau RAM, swap, dan cache, lalu
 membersihkan cache secara otomatis saat pemakaian melewati ambang batas (default 80%).
 
-> Tambahkan tangkapan layar di folder `docs/` lalu tampilkan di sini:
-> `![MemReduct](docs/screenshot.png)`
+![screenshot](https://github.com/mugi789/memreduct-linux/blob/main/Screenshot%20from%202026-11-27%2005-57-14.png?raw=true)
 
 ## Fitur
 
