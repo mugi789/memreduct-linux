@@ -88,12 +88,6 @@ packaging/files/              launcher, desktop entry, ikon, aturan sudoers
 .github/workflows/            CI: build .deb, rilis otomatis saat tag vX.Y.Z
 VERSION                       nomor versi (sumber untuk paket dan rilis)
 ```
-
-## Merilis versi baru
-
-1. Ubah `VERSION` dan `CHANGELOG.md`.
-2. `git tag v1.2.0 && git push --tags`. GitHub Actions membangun `.deb` dan melampirkannya ke Release.
-
 ## Lisensi
 
 [MIT](LICENSE)
